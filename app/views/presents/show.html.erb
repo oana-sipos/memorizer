@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Present:</strong>
+  <%= @present.present %>
+</p>
+
+<p>
+  <strong>Giftee:</strong>
+  <%= @present.giftee %>
+</p>
+
+<p>
+  <strong>Occasion:</strong>
+  <%= @present.occasion %>
+</p>
+
+<%= link_to 'Edit', edit_present_path(@present) %> |
+<%= link_to 'Back', presents_path %>

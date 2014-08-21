@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :presents
+
+  resources :movies
+
+  resources :people
+
+  resources :books
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

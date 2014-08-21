@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  present: MyString
+  giftee: MyString
+  occasion: MyString
+
+two:
+  present: MyString
+  giftee: MyString
+  occasion: MyString
