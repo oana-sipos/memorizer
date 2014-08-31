@@ -1,19 +1,21 @@
-<p id="notice"><%= notice %></p>
+<div class="col-sm-4 col-sm-offset-4">
+	<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
+	<p>
+	  <strong>Title:</strong>
+	  <%= @book.title %>
+	</p>
 
-<p>
-  <strong>Author:</strong>
-  <%= @book.author %>
-</p>
+	<p>
+	  <strong>Author:</strong>
+	  <%= @book.author %>
+	</p>
 
-<p>
-  <strong>Recommended by:</strong>
-  <%= @book.recommended_by %>
-</p>
+	<p>
+	  <strong>Recommended by:</strong>
+	  <%= @book.recommended_by %>
+	</p>
 
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+	<%= link_to 'Edit', edit_book_path(@book) %> |
+	<%= link_to 'Back', books_path %>
+</div>
