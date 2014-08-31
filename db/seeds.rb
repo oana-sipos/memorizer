@@ -25,9 +25,9 @@ Person.create(name: 'Andreia', reason: 'catch up', channel: 'live', deadline: '1
 Person.create(name: 'Mada', reason: 'catch up', channel: 'live', deadline: '1/9/2014', reminder_date: '2/9/2014')
 
 Place.delete_all
-Place.create(location: 'Marseille', country: 'France', recommended_by: 'Oana V')
-Place.create(location: 'Amsterdam', country: 'The Netherlands', recommended_by: 'me')
-Place.create(location: 'Rotterdam', country: 'The Netherlands', recommended_by: 'Florin Popa')
+Place.create(location: 'Marseille', country: 'France', recommended_by: 'Oana V', reminder_date: '3/11/2014')
+Place.create(location: 'Amsterdam', country: 'The Netherlands', recommended_by: 'me', reminder_date: '3/10/2014')
+Place.create(location: 'Rotterdam', country: 'The Netherlands', recommended_by: 'Florin Popa', reminder_date: '3/1/2015')
 
 Present.delete_all
 Present.create(present: 'flight to Rome', giftee: 'Anastasios', occasion: 'no_reason', reminder_date: '25/9/2014')
