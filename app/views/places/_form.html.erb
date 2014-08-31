@@ -12,6 +12,22 @@
       </div>
     <% end %>
 
+    <div class="field">
+      <%= f.label :location %><br>
+      <%= f.text_field :location %>
+    </div>
+    <div class="field">
+      <%= f.label :country %><br>
+      <%= f.text_area :country %>
+    </div>
+    <div class="field">
+      <%= f.label :recommended_by %><br>
+      <%= f.text_field :recommended_by %>
+    </div>
+    <div class="field">
+      <%= f.label :reminder_date %><br>
+      <%= f.date_select :reminder_date %>
+    </div>
     <div class="actions">
       <%= f.submit %>
     </div>
